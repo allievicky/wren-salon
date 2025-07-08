@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/mediaqueries.css">
+  <title>WREN Salon StL</title>
+</head>
+<body>
+  <div class="hero-image">
+    <nav id="desktop-nav">
+      <div class="logo">WREN Salon StL</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>  
+  <nav id="hamburger-nav">
+    <div class="logo">WREN</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+<section id="about">
+  <div>
+    <img src="assets/logo.png" class="logo-pic" alt="WREN Salon logo">
+  </div>
+  <div class="text-container">
+    <p class="about-text">Be a part of the laughter and easy going feels while at WREN. Leave looking and feeling like the glowing gal or guy you
+    are! We take pride in providing stylists and clients a peaceful and beautiful atmosphere. Our stylists have been in the
+    trade for many years, and stay current with hair color techniques and cuts. 
+    </p>
+  </div>
+
+</section>
+
+<section id="gallery">
+      <p class="section__text__p1">Look Around</p>
+    <div class="about-containers">
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-1.png" alt="Salon image 1" class="project-img" />
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-6.png" alt="Salon image 2" class="project-img" />
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-3.png" alt="Salon image 3" class="project-img" />
+        </div>
+      </div>
+  </div>
+    <div class="about-containers">
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-4.png" alt="Salon image 4" class="project-img" />
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-2.png" alt="Salon image 5" class="project-img" />
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="article-container">
+          <img src="./assets/salon-5.png" alt="Salon image 6" class="project-img" />
+        </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <p class="section__text__p2">Get in Touch</p>
+  <div class="contact-info-upper-container">
+      <p class="contact-text">We are conveniently located in the heart of
+      Brentwood.</p><br />
+      <p class="contact-text">2312 South Brentwood Blvd.</p>
+      <p class="contact-text">St. Louis, MO 63144</p><br />
+      <p class="contact-text">314-283-9287</p><br />
+      <p class="contact-text">*By appointment only Tuesday-Saturday.</p>
+  </div>
+</section>
+<footer>
+  <p>Copyright &#169; 2025 WREN Salon StL. All Rights Reserved.</p>
+</footer>
+  <script src="src/index.js"></script>
+</body>
+</html>
